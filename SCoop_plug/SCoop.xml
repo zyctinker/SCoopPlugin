@@ -1,0 +1,14 @@
+<!-- type="company" block="block/SCoop.js" generator="generator/SCoop.js"  lib="SCoop" language="language" -->
+<script type="text/javascript" src="../../blocks/company/SCoop.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/SCoop.js"></script>
+<category id="catSCoop" name="SCoop" colour="20">
+	  <block type="SCoopTask"></block>
+	  <block type="SCoop_yield"></block>
+	  <block type="SCoop_sleep">
+		<value name="sleeplength">
+			<shadow type="math_number">
+				<field name="NUM">1000</field>
+			</shadow>
+		</value>
+	  </block>
+</category>
